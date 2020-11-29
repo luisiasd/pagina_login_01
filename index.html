@@ -2,16 +2,31 @@
 <html lang="pt">
 <head>
 				<title>Login</title>
+				<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
 </head>
 <body>
 				<div class="container">
 				<form method="POST" action="">
 								<img src="">
 								<h1>IdeaLamp</h1>
-								<p><input id="idlogin" name="login" type="text" placeholder="Digite seu Login"></p>
-								<p><input id="idsenha" name="senha" type="password"></p>
-								<a href="">Esqueceu? O.o</a>
-								<p><input name="btnEnviar" type="submit"></p>
+								
+								<div class="estiloLogin">
+												<input name="login" type="text">
+												<label>Id</label>
+								</div>
+								
+								<div classe="estiloSenha">
+												<input id="idsenha" name="senha" type="password">
+												<label>Senha</label>
+								</div>
+								
+								<div class="esqueceuSenha">Esqueceu O.o?</div>
+								<input name="btnEnviar" type="submit" value="Pronto!!">
+								
+								<div class="cadastro">
+												<a href="Cadastre-se"></a>
+								</div>
+								
 				</form>
 				</div>
 </body>
