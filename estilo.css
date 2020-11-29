@@ -1,24 +1,50 @@
 /* Corpo da Pagina */
 
 body{
-	margin: 0;
-	paddin: 0;
-	font-family: montserrat;
-	background-color: #40cbff;
+				margin: 0;
+				paddin: 0;
+				font-family: montserrat;
+				background-color: #40cbff;
 }
 /* Container */
 
 .container{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 400px;
-	background: white;
-	border-radius: 15%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 400px;
+				background: white;
+				border-radius: 10%;
 }
 .container h1{
-	text-align: center;
-	padding: 0 0 20px 0;
-	border-bottom: 2px solid silver;
+				text-align: center;
+				padding: 0 0 20px 0;
+				border-bottom: 2px solid silver;				
 }
+.container form{
+				padding: 0 40px;
+				box-sizing: border-box;
+}
+form .estiloLogin{
+				position: relative;
+				border-bottom: 2px solid #adadad;
+				margin: 30px 0;
+}
+.estiloLogin input{
+				border: none;
+				padding: 0 5px;
+				height: 40px;
+				font-size: 16px;
+				width: 100%;
+				border: none;
+				outline: none;
+}
+.estiloLogin label{
+				positon: absolute;
+				top: 50%;
+				left: 5px;
+				color: #ff005e;
+				transform: translateY(-50%);
+}
+
