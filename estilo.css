@@ -1,24 +1,24 @@
 /* Corpo da Pagina */
 
 body{
-				margin: 0;
-				paddin: 0;
-				font-family: montserrat;
-				background-color: #40cbff;
+	margin: 0;
+	paddin: 0;
+	font-family: montserrat;
+	background-color: #40cbff;
 }
 /* Container */
 
 .container{
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				width: 400px;
-				background: white;
-				border-radius: 15%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 15%;
 }
 .container h1{
-				text-align: center;
-				padding: 0 0 20px 0;
-				border-bottom: 2px solid silver;
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 2px solid silver;
 }
